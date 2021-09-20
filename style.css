@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.fundo{
+    height: 100vh;
+    background-image: linear-gradient(60deg, cornflowerblue, rgb(52, 26, 100));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+header h1{
+    margin-top: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer h2{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.calculadora{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 6px solid black;
+    width: 250px;
+    height: 380px;
+    border-radius: 10px;
+    padding: 20px 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#resultado{
+    cursor: e-resize;
+    text-align: right;
+    width: 200px;
+    height: 10px;
+    padding: 8px 5px 20px;
+    background-color: rgb(8, 105, 52);
+    box-shadow: inset 0 0 1em rgba(207, 176, 0, 0.6);
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 20px;
+    border-radius: 2px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    height: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(145, 192, 50, 0.5);
+}
+
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 3px 40%;
+    background-color: rgba(51, 51, 51, 0.4);
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 2px rgb(129, 129, 129);
+    position:static
+}
+
+#igual{
+    width: 100px;
+    margin-left: 22%;
+}
+
+.botao:hover{
+    background-color: rgba(20, 20, 20, 0.4);
+}
+
+.botao:active{
+    box-shadow: inset 0 0 1em black;
+}
+
+#changeBtn{
+    cursor: pointer;
+    border: none;
+    bottom: 0px;
+    position: absolute;
+    margin-bottom: 300px;
+    margin-left: 200px;
+    padding: 10px 22px;
+    transform: translate(-50%);
+    box-shadow: 1px 2px rgb(129, 129, 129);
+}
+
+#changeBtn:hover{
+    padding: 8px 20px;
+}
+
+#changeBtn:active{
+    box-shadow: inset 0 0 1em rgba(200, 243, 147, 0.5)
+}
+
+#changeBtnBlack{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    bottom: 0px;
+    position: absolute;
+    margin-bottom: 350px;
+    margin-left: 200px;
+    padding: 10px 22px;
+    transform: translate(-50%);
+    box-shadow: 1px 2px rgb(65, 65, 65);
+}
+
+#changeBtnBlack:hover{
+    padding: 8px 20px;
+}
+
+#changeBtnBlack:active{
+    box-shadow: inset 0 0 1em rgba(90, 90, 90, 0.5)
+}
