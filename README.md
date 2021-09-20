@@ -12,9 +12,9 @@ Site: https://thatygama.github.io/calculator
 - [x] CSS
 - [x] JavaScript
 
-
-What I still want to do:
+<br>
+<p>What I still want to do:</p>
 - [ ] Responsivity
 
-
+<br><br>
 <h2>Made by: Thatyane Gama</h2>
