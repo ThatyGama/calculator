@@ -4,6 +4,8 @@
 <p>\/ and calculate!</p>
 <br>
 
+<p>Link direto!: https://thatygama.github.io/calculator/ </p>
+
 ![calculadora](https://user-images.githubusercontent.com/90471309/134041158-5d20428c-d70f-4181-8b89-2bbf7f399e31.gif)
 
 - [x] HTML
